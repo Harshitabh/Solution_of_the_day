@@ -1,2 +1,20 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int A,B;;
+	    cin>>A>>B;
+	    if((2*A)>B)
+	    cout<<"FIRST"<<endl;
+	    else  if ((2*A)==B)
+	    cout<<"ANY"<<endl;
+	    else
+	    cout<<"SECOND"<<endl;
+	}
+	return 0;
+}
